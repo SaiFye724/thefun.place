@@ -27,6 +27,11 @@
         <div id="credits-body">
             <h2 style="text-align: left;">CREDITS</h2>
             <p>When creating websites, it's important to ensure that proper copyright laws as well as privacy terms are followed. Our credits page is used as our way to show credit to authors of content that helped facilitate our website. Although all content was obtained and used legally, this is a gesture towards encouraging further royalty-free author content.</p>
+            
+            <div class="github-link">
+                <p>If you'd like to see our github, <a href="https://github.com/SaiFye724/thefun.place" target="_blank">click here</a></p>
+            </div>
+            
             <h3><strong>IMAGES</strong></h3>
             <p><b>All HD images were obtained through unsplash.com for legal use.</b></p>
             <hr>

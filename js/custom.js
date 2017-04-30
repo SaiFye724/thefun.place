@@ -13,7 +13,7 @@ $(document).ready( function() {
         $rightMenu.animate({ right: '-275px'}).css('display', 'none');
         menuVisible = false;  
     })
-})
+});
 
 /* Function to close the alert on booking an event */
 $(document).ready( function() {
@@ -21,7 +21,15 @@ $(document).ready( function() {
     $('#close-bookalert').on('click', function() {
         $bookalert.fadeOut();
     })
-})
+});
+
+/* Function to open booking alert from button on mobile */
+$(document).ready( function() {
+    var $bookModal = $('#bookingModal');
+    $('.mob-bookparty-btn').on('click', function() {
+        $bookModal.modal("show");
+    })
+});
 
 /* Function to change navigation from absolute to fixed */
 $(document).ready( function() {
@@ -36,4 +44,4 @@ $(document).ready( function() {
             $('.navbar-top').css('top', navTop);
         }
     });
-})
+});
